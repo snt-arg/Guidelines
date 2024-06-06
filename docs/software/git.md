@@ -85,9 +85,7 @@ The types of commits can be: `feat`, `fix`, `chore` ...
 
 ## Visibility
 
-!!! info
-
-    All repository created should be set to private. This is because you do not own your repository but in fact it's the University of Luxembourg. Nevertheless, that does not mean you cannot make it open-source. If you want to make it open-source please have a discussion with Jose Luis.
+All repository created should be set to private. This is because you do not own your repository but in fact it's the University of Luxembourg. Nevertheless, that does not mean you cannot make it open-source. If you want to make it open-source please have a discussion with Jose Luis.
 
 ## License
 
