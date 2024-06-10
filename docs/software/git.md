@@ -85,7 +85,7 @@ The types of commits can be: `feat`, `fix`, `chore` ...
 
 ## Visibility
 
-All repository created should be set to private. This is because you do not own your repository but in fact it's the University of Luxembourg. Nevertheless, that does not mean you cannot make it open-source. If you want to make it open-source please have a discussion with Jose Luis.
+All repository created should be set to private. This is because you do not own your repository but in fact it's the University of Luxembourg. Nevertheless, that does not mean you cannot make it open-source. If you want to make it open-source please have a discussion with Holger or Jose-Luis.
 
 ## License
 
@@ -96,6 +96,4 @@ of your repo, to see if it passes all checks.
 Nevertheless, you could already create a license file when creating the repo.
 The license that will be applied will most likely be [GPL-3.0](https://opensource.org/license/gpl-3-0){:target="\_blank"}.
 
-<!--TODO
-### CI/CD
--->
+## CI/CD
