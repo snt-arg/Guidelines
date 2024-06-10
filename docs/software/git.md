@@ -9,7 +9,7 @@ and manage code history efficiently.
 The use of Git should be your number one tool if you do any type of software development.
 If you are reading this guide, the chances that you already are in our GitHub organization
 are high. In case you did not know, any software that you work on, whether already existing
-or new should all be hosted on our [organization](github.com/snt-arg).
+or new should all be hosted on our [organization](https://github.com/snt-arg){:target="\_blank"}.
 
 In order to maintain a good consistency across all repositories in our organization,
 some conventions are encouraged to be followed. The conventions not only help you
