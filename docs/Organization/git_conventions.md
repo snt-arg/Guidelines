@@ -1,4 +1,4 @@
-# Git
+# Git Conventions
 
 Your best friend when writing software. Git is a distributed version control
 system that allows multiple developers to track changes, collaborate,

@@ -1,4 +1,4 @@
-# ROS
+# New Project
 
 In our team, which focuses on robotics, the use of ROS should be highly encourage,
 if not mandatory. This not only will make sure that your work will be able to be
@@ -16,9 +16,9 @@ There are 2 version available at the moment of writing this guide, ROS1 and ROS2
 If you are about to start now, please use **ROS2**, choosing the distribution that
 is the **LTS** version. Currently, this is [humble](https://docs.ros.org/en/humble/index.html).
 
-!!! note
+!!! warning
 
-    Please try to avoid ROS1. This is because ROS1 will reach end-of-life soon.
+    Please try to avoid **ROS1**. This is because ROS1 will reach end-of-life soon.
 
 ## Starting a Fresh Project
 
@@ -26,7 +26,7 @@ is the **LTS** version. Currently, this is [humble](https://docs.ros.org/en/humb
 
 !!! note
 
-    Before starting a new project, you should get familiar with our [git conventions](./git.md).
+    Before starting a new project, you should get familiar with our [git conventions](./git_conventions.md).
 
 In order to create a new project, you should go to the organization and press the
 **new** button, as shown in the picture bellow:
