@@ -22,8 +22,8 @@ to generate good CHANGELOGs for instance.
 
 - Name your repository with some meaning.
 - In case a repository is used for versioning workspaces, it should be named with the project
-  name and carry the `_ws` suffix. Such an example is the [tello_ws](https://github.com/snt-arg/tello_ws).
-- Consider having a `.gitignore` file. You can use a generator [here](https://www.toptal.com/developers/gitignore)
+  name and carry the `_ws` suffix. Such an example is the [tello_ws](https://github.com/snt-arg/tello_ws){:target="\_blank"}.
+- Consider having a `.gitignore` file. You can use a generator [here](https://www.toptal.com/developers/gitignore){:target="\_blank"}
 - Each repository should contain a **README** which should give some docs about the project
   and some guides to use the software.
 
@@ -94,7 +94,7 @@ a license. This license is usually selected by the TTO (Technology Transfer Offi
 of your repo, to see if it passes all checks.
 
 Nevertheless, you could already create a license file when creating the repo.
-The license that will be applied will most likely be [GPL-3.0](https://opensource.org/license/gpl-3-0).
+The license that will be applied will most likely be [GPL-3.0](https://opensource.org/license/gpl-3-0){:target="\_blank"}.
 
 <!--TODO
 ### CI/CD
