@@ -15,7 +15,7 @@ In order to maintain a good consistency across all repositories in our organizat
 some conventions are encouraged to be followed. The conventions not only help you
 to manage your development, such as finding where things were added, fixed or even
 roll back to a working state are one the main key advantages. In addition, by following
-these conventions, you will be helping others as well and make use of automated tools
+these conventions, you will be helping others and make use of automated tools
 to generate good CHANGELOGs for instance.
 
 ## Repositories
@@ -29,37 +29,36 @@ to generate good CHANGELOGs for instance.
 
 ## Branches
 
-Each repository should have at least 2 branches: `main`/`master` and a `dev`.
-The `main` should always contain a stable version of software and the `dev` should
-be the development branch, where all new changes are performed.
+### Recommended Branching Strategy with CI/CD Pipeline
 
-When you are about to start the implementation of a new feature, and/or fixing a bug,
-you **should** create a new branch where it will have the new feature, or the fix.
-Therefore, you should create the branch **from the `dev` branch**. For this reason,
-each new branch should have a prefix followed by `/details_of_change`. Here are some examples:
+This approach leverages a CI/CD pipeline, eliminating the need for a `dev` branch. The `main` branch is **continuously** updated.
 
-1. `feat/add-login-page`: This branch name indicates that the work being done involves adding a login page feature.
+When developing a new feature or fixing a bug, create a separate branch for the task. Once the work is complete, create a pull request to merge it into the `main` branch. This PR will be run through the CI/CD pipeline, which will perform tests, verify code compilation, and more. If any checks fail, the pull request cannot be merged into the `main` branch.
 
-1. `fix/typo-in-header`: This branch name suggests that the focus is on fixing a typo found in the header section of the project.
+### Legacy Branching Strategy (Still Useful)
 
-1. `refactor/restructure-database`: This branch name indicates that the work involves refactoring or restructuring the database architecture.
+Each repository should have at least two branches: `main` (or `master`) and `dev`. The `main` branch should always contain a stable version of the software, while the `dev` branch serves as the development branch where all new changes are made.
 
-1. `docs/update-readme`: This branch name suggests updating the project's README documentation.
+When starting the implementation of a new feature or fixing a bug, you **should** create a new branch dedicated to the new feature or fix. This branch should be created **from the `dev` branch**.
 
-1. `test/add-unit-tests`: This branch name indicates adding unit tests to the project for testing purposes.
-
-1. `style/change-button-color`: This branch name suggests changing the color of buttons in the user interface.
-
-1. `hotfix/fix-security-vulnerability`: This branch name indicates a critical fix for a security vulnerability.
-
-1. `chore/clean-up-unused-code`: This branch name suggests cleaning up unused code or files in the project.
-
-Once a branch has fulfilled its purpose, a new pull request (PR) should be created, and
-assigned to another team member who will be responsible for reviewing the code and merging it into the `dev` branch.
+Once a branch has fulfilled its purpose, create a pull request (PR) and assign it to another team member for code review and merging into the `dev` branch.
 
 !!! hint
 
     Once the `dev` branch is stable, the same should be merged to the `main` branch by **creating a PR**.
+
+### Branch Naming Examples
+
+Each new branch should have a prefix followed by a descriptive name. Here are some examples:
+
+1. `feat/add-login-page`: Work involving adding a login page feature.
+2. `fix/typo-in-header`: Focus on fixing a typo found in the header section.
+3. `refactor/restructure-database`: Work involving refactoring or restructuring the database architecture.
+4. `docs/update-readme`: Updating the project's README documentation.
+5. `test/add-unit-tests`: Adding unit tests to the project.
+6. `style/change-button-color`: Changing the color of buttons in the user interface.
+7. `hotfix/fix-security-vulnerability`: A critical fix for a security vulnerability.
+8. `chore/clean-up-unused-code`: Cleaning up unused code or files in the project.
 
 ## Commits
 
@@ -97,3 +96,5 @@ Nevertheless, you could already create a license file when creating the repo.
 The license that will be applied will most likely be [GPL-3.0](https://opensource.org/license/gpl-3-0){:target="\_blank"}.
 
 ## CI/CD
+
+To learn how to use GitHub actions, please follow their (guide)[https://docs.github.com/en/actions].
