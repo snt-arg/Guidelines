@@ -44,7 +44,7 @@ In case you are connected to the robot via cable, no need to connect to WiFi. Si
 
 The following picture illustrates well each component available inside the robot.
 
-![unitree control system](../../assets/unitree_control_system.png){ align=center }
+![unitree control system](../assets/unitree_control_system.png){ align=center }
 
 - Has 4 computers
 - Has 5 Depth cameras

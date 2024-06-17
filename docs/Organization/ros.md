@@ -110,7 +110,7 @@ e.g., calling `vcstool`, `pip`, and so on.
 
 - #### Example Workspace Structure
 
-  ![workspace-example](../../assets/workspace_example.png)
+  ![workspace-example](../assets/workspace_example.png)
 
 !!! warning
 
